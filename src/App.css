@@ -23,3 +23,15 @@ header ul li{
     @apply w-full  text-center border-b-2;
 
 }
+
+.project-card{
+    @apply absolute  left-0 right-0 bottom-[20px] font-body-font font-semibold top-0 bg-secondary opacity-0 duration-500 hover:opacity-100 
+}
+
+.btn{
+    @apply bg-blue-600 text-white px-6 py-3 rounded-full font-body-font font-semibold hover:bg-black duration-300;
+}
+
+html{
+    scroll-behavior: smooth;
+}

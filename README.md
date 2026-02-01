@@ -68,3 +68,43 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+Personal Portfolio Website (React)
+
+A modern, fully responsive personal portfolio website built using React and Tailwind CSS.
+This project showcases my skills, projects, and contact information, following best practices in component reusability, clean architecture, and maintainable code.
+
+Features:
+
+1. Built with React Functional Components
+
+2. Styled using Tailwind CSS
+
+3. Reusable components with props
+
+4. Clean and scalable folder structure
+
+5. Static data stored in separate JS files
+
+6. Fully responsive (Mobile, Tablet, Desktop)
+
+7. Contact form integrated with EmailJS
+
+8. Smooth hover effects and transitions
+
+9. Clean, readable, and well-commented code
+
+Technologies Used:
+
+    React JS
+
+    Tailwind CSS
+
+    EmailJS
+
+    Lucide React Icons
+
+    JavaScript (ES6+)
+
+    HTML5 & CSS3

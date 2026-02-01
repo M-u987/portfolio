@@ -1,9 +1,12 @@
 import React from 'react';
 import './App.css';
-import Header from './components/Header';
-import Hero from './components/Hero';
-import About from './components/About';
-import Projects from './components/Project';
+import Header from './components/common/Header';
+import Hero from './Pages/Hero';
+import About from './Pages/About';
+import Projects from './Pages/Project';
+import Skills from './Pages/Skills';
+import Contact from './Pages/contact';
+import Footer from './Pages/Footer';
 
 function App() {
   return (
@@ -11,7 +14,10 @@ function App() {
       <Header />
       <Hero />
       <About />
-      <Projects/>
+      <Projects />
+      <Skills />
+      <Contact/>
+      <Footer />
     </div>
   );
 }
