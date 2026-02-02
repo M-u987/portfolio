@@ -14,7 +14,7 @@ export default function ProjectCard({ id, image, title, description }) {
       />
 
       {/* Hover Overlay */}
-      <div className="absolute inset-0 bg-black/70 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+      <div className="absolute inset-0 bg-black/60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
         <p className="text-white text-center px-6">
             {title} : {description}
           

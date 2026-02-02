@@ -8,12 +8,13 @@ import Skills from './Pages/Skills';
 import Contact from './Pages/contact';
 import Footer from './Pages/Footer';
 import Edugation from './Pages/Edugation';
+import HomeButton from './components/common/TopBtn';
 
 
 function App() {
   return (
     <div className="App">
-      
+        <HomeButton/>
         <Header />
         <Hero />
         <About />

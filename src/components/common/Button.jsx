@@ -9,6 +9,5 @@ export default function Button({ text, href, download }) {
       {text}
     </a>
     </div>
-    
   );
 }

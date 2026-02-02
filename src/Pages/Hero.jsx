@@ -6,7 +6,7 @@ import { personalData } from "../Data/PersonalData.jsx";
 export default function Hero() {
   return (
     <section className="max-w-7xl mx-auto flex flex-col md:flex-row items-center px-6 py-24 gap-10">
-      
+
       {/* Text */}
       <div className="md:w-1/2">
         <h1 className="text-5xl px-10 md:text-7xl font-hero-font text-black leading-tight">
@@ -33,11 +33,13 @@ export default function Hero() {
 
       {/* Image */}
       <div className="md:w-1/2 flex justify-center">
+      
         <img
           src={HeroImg}
           alt="Murugesh Profile"
           className="w-[300px] md:w-[700px] hover:scale-105 transition duration-300"
         />
+        
       </div>
     </section>
   );

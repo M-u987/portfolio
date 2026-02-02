@@ -4,6 +4,7 @@ import AboutImage from "../components/About/AboutImg.jsx";
 import AboutContent from "../components/About/AboutContent";
 import { aboutData } from "../Data/AboutData.jsx";
 
+
 /**
  * About section wrapper component
  */

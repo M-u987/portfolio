@@ -9,7 +9,7 @@ export const educationData = [
   {
     degree: "Higher Secondary Education",
     institution: "Government Higher Secondary School",
-    year: "2019 – 2021",
+    year: "2016 – 2019",
     description:
       "Specialized in Computer Science with strong foundations in programming and mathematics."
   },

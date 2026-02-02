@@ -15,7 +15,7 @@ export default function Header() {
         {/* Desktop Menu */}
         <nav className="hidden md:block">
           <ul className="flex gap-8 text-white font-medium">
-            <li><a href="#" className="hover:text-blue-400">Home</a></li>
+            <li><a href="#home" className="hover:text-blue-400">Home</a></li>
             <li><a href="#about" className="hover:text-blue-400">About</a></li>
             <li><a href="#education" className="hover:text-blue-400">Eduction</a></li>
             <li><a href="#project" className="hover:text-blue-400">Projects</a></li>
@@ -37,7 +37,7 @@ export default function Header() {
       {toggleMenu && (
         <nav className="md:hidden bg-secondary px-6 pb-4">
           <ul className="flex flex-col gap-4 text-white font-medium">
-            <li><a href="/" onClick={() => setToggleMenu(false)}>Home</a></li>
+            <li><a href="#home" onClick={() => setToggleMenu(false)}>Home</a></li>
             <li><a href="#about" onClick={() => setToggleMenu(false)}>About</a></li>
             <li><a href="#education" onClick={() => setToggleMenu(false)}>Eduction</a></li>
             <li><a href="#project" onClick={() => setToggleMenu(false)}>Projects</a></li>
