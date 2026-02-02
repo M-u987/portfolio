@@ -9,22 +9,22 @@ export default function Hero() {
       
       {/* Text */}
       <div className="md:w-1/2">
-        <h1 className="text-5xl md:text-7xl font-hero-font text-black leading-tight">
+        <h1 className="text-5xl px-10 md:text-7xl font-hero-font text-black leading-tight">
           Hi, <br />
           I'm <span className="text-blue-600">{personalData.name}</span>
         </h1>
 
-        <p className="text-2xl mt-4 text-black">
+        <p className="text-2xl px-10 mt-4 text-black">
           A Passionate <span className="text-blue-600 font-semibold">{personalData.role}</span>
         </p>
 
-        <p className="mt-6 text-lg text-gray-700 text-justify">
+        <p className="mt-6 px-10 text-lg text-gray-700 text-justify">
           {personalData.description}
         </p>
 
-        <SocialLinks links={personalData.socialLinks} />
+        <SocialLinks  links={personalData.socialLinks} />
 
-        <Button
+        <Button className="px-10"
           text="Download My CV"
           href={personalData.resume}
           download="Murugesh_Resume.pdf"

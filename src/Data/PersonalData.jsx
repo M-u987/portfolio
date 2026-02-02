@@ -1,9 +1,10 @@
+import Resume from "../components/Hero/Murugesan_S.pdf"
 export const personalData = {
-  name: "Murugesh",
+  name: "Murugesan ",
   role: "Full-Stack Developer",
   description:
     "Welcome to my portfolio! I'm Murugesh, a dedicated full-stack developer passionate about building scalable, responsive, and user-friendly web applications.",
-  resume: "/Murugesh_Resume.pdf",
+  resume: Resume,
   socialLinks: {
     linkedin: "https://www.linkedin.com/in/murugesan-s",
     github: "https://github.com/M-u987",

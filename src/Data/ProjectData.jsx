@@ -17,8 +17,8 @@ export const projectsData = [
   },
   {
     id: 3,
-    title: "Social Networking App",
-    description: "Social networking platform with posts & messaging.",
+    title: "Role-Based Login System using React.js",
+    description: "I successfully implemented a role-based authentication and authorization system using React.js. The application allows users to log in securely and grants access based on their assigned roles (such as Admin, User, or Manager).",
     image: Project3,
   },
 ];

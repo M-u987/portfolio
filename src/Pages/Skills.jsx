@@ -16,7 +16,7 @@ export default function Skills() {
       <div className="max-w-6xl mx-auto">
 
         <SkillsHeader
-          title="Skills"
+          
           subtitle="Technologies & tools I use in real-world projects"
         />
 

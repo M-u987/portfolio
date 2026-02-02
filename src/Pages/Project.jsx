@@ -11,8 +11,7 @@ export default function Projects() {
       id="project"
       className="max-w-7xl mx-auto px-6 py-20"
     >
-      <ProjectsHeader
-        title="Projects"
+      <ProjectsHeader 
         subtitle="Here are some of the projects I've worked on:"
       />
 

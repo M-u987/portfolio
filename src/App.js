@@ -7,17 +7,22 @@ import Projects from './Pages/Project';
 import Skills from './Pages/Skills';
 import Contact from './Pages/contact';
 import Footer from './Pages/Footer';
+import Edugation from './Pages/Edugation';
+
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Hero />
-      <About />
-      <Projects />
-      <Skills />
-      <Contact/>
-      <Footer />
+      
+        <Header />
+        <Hero />
+        <About />
+        <Edugation/>
+        <Projects />
+        <Skills />
+        <Contact/>
+        <Footer />
+     
     </div>
   );
 }

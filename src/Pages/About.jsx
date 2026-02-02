@@ -13,6 +13,7 @@ export default function About() {
       id="about"
       className="max-w-7xl mx-auto flex flex-col md:flex-row items-center px-6 py-20 gap-10"
     >
+      
       <AboutImage image={AboutImg} alt="About Murugesh" />
       <AboutContent
         title={aboutData.title}

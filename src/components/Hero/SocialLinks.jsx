@@ -3,7 +3,7 @@ import { RiInstagramFill } from "react-icons/ri";
 
 export default function SocialLinks({ links }) {
   return (
-    <div className="flex items-center gap-5 mt-8">
+    <div className="flex px-10 items-center gap-5 mt-8">
       <a href={links.linkedin} target="_blank" className="hover:text-blue-600 animate-bounce">
         <FaLinkedin size={28} />
       </a>
