@@ -3,7 +3,7 @@ import React from "react";
 /**
  * Individual project card component
  */
-export default function ProjectCard({ image, title, description }) {
+export default function ProjectCard({ id, image, title, description }) {
   return (
     <div className="relative group rounded-xl overflow-hidden shadow-lg transition-transform duration-300 hover:scale-105">
       {/* Project Image */}
@@ -16,7 +16,8 @@ export default function ProjectCard({ image, title, description }) {
       {/* Hover Overlay */}
       <div className="absolute inset-0 bg-black/70 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
         <p className="text-white text-center px-6">
-          {description}
+            {title} : {description}
+          
         </p>
       </div>
     </div>
