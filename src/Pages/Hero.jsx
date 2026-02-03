@@ -30,8 +30,6 @@ export default function Hero() {
           href={personalData.resume}
           download="murugesh.pdf"
         />
-
-        
       </div>
 
       {/* Image */}
