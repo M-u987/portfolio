@@ -1,8 +1,8 @@
 import React from "react-router-dom";
-import HeroImg from "../Components/Hero/Muru.png";
-import SocialLinks from "../Components/Hero/SocialLinks.jsx";
-import Button from "../Components/Common/Button.jsx";
-import { personalData } from "../Data/PersonalData.jsx";
+import HeroImg from "../components/hero/muru.png";
+import SocialLinks from "../components/hero/sociallinks.jsx";
+import Button from "../components/common/button.jsx";
+import { personalData } from "../data/personaldata.jsx";
 
 export default function Hero() {
   return (
@@ -28,7 +28,7 @@ export default function Hero() {
         <Button className="px-10"
           text="Download My CV"
           href={personalData.resume}
-          download="Murugesh_Resume.pdf"
+          download="murugesh.pdf"
         />
       </div>
 

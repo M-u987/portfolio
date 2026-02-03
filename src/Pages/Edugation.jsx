@@ -1,6 +1,6 @@
 import React from "react-router-dom";
-import EducationCard from "../Components/Education/EducationInfo.jsx";
-import { educationData } from "../Data/EducationData.jsx";
+import EducationCard from "../components/education/educationinfo.jsx";
+import { educationData } from "../data/educationdata.jsx";
 
 export default function Education() {
   return (

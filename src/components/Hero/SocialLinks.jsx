@@ -1,6 +1,6 @@
 import { FaLinkedin, FaGithub, FaYoutube } from "react-icons/fa6";
 import { RiInstagramFill } from "react-icons/ri";
-import { Link } from "lucide-react";
+
 
 export default function SocialLinks({ links }) {
   return (

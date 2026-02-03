@@ -1,7 +1,7 @@
 import React from "react-router-dom";
-import ProjectCard from "../Components/Project/ProjectCard.jsx";
-import ProjectsHeader from "../Components/Project/ProjectHeader.jsx";
-import { projectsData } from "../Data/ProjectData.jsx";
+import ProjectCard from "../components/project/projectcard.jsx";
+import ProjectsHeader from "../components/project/projectheader.jsx";
+import { projectsData } from "../data/projectdata.jsx";
 
 /**
  * Projects section wrapper component

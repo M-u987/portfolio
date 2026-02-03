@@ -1,8 +1,8 @@
 import React from "react-router-dom";
 import AboutImg from "../assets/About.jpg";
-import AboutImage from "../Components/About/AboutImg.jsx";
-import AboutContent from "../Components/About/AboutContent.jsx";
-import { aboutData } from "../Data/AboutData.jsx";
+import AboutImage from "../components/about/aboutimg.jsx";
+import AboutContent from "../components/about/aboutcontent.jsx";
+import { aboutData } from "../data/aboutdata.jsx";
 
 
 /**

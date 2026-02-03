@@ -1,6 +1,6 @@
 import React from "react-router-dom";
-import FooterLinks from "../Components/Footer/FooterSocial.jsx";
-import { FooterData } from "../Data/FooterData.jsx";
+import FooterLinks from "../components/footer/footersocial.jsx";
+import { FooterData } from "../data/footerdata.jsx";
 
 export default function Footer() {
   return (
@@ -21,7 +21,7 @@ export default function Footer() {
         <div>
           <h3 className="text-lg font-semibold  mb-4">Quick Links</h3>
           <ul className="space-y-2">
-            <li><a href="#" className="">Home</a></li>
+            <li><a href="/" className="">Home</a></li>
             <li><a href="#about" className="">About</a></li>
             <li><a href="#education" className="">Eduction</a></li>
             <li><a href="#project" className="">Projects</a></li>
@@ -34,9 +34,9 @@ export default function Footer() {
         <div>
           <h3 className="text-lg font-semibold  mb-4">Support</h3>
           <ul className="space-y-2">
-            <li><a href="#" className="">Help Center</a></li>
-            <li><a href="#" className="">Privacy Policy</a></li>
-            <li><a href="#" className="">Terms & Conditions</a></li>
+            <li><a href="/" className="">Help Center</a></li>
+            <li><a href="/" className="">Privacy Policy</a></li>
+            <li><a href="/" className="">Terms & Conditions</a></li>
           </ul>
         </div>
 

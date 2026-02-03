@@ -1,8 +1,8 @@
 import React from "react-router-dom";
-import ContactHeader from "../Components/Contact/ContectHeader.jsx";
-import ContactInfo from "../Components/Contact/ContactInfo.jsx";
-import ContactForm from "../Components/Contact/ContactForm.jsx";
-import { contactInfo } from "../Data/ContactData.jsx";
+import ContactHeader from "../components/contact/contectheader.jsx";
+import ContactInfo from "../components/contact/contactinfo.jsx";
+import ContactForm from "../components/contact/contactform.jsx";
+import { contactInfo } from "../data/contactdata.jsx";
 
 export default function Contact() {
   return (
