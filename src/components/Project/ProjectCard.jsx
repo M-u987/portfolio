@@ -1,4 +1,3 @@
-import React from "react";
 
 /**
  * Individual project card component

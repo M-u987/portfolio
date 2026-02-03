@@ -1,4 +1,4 @@
-import React from "react-router-dom";
+
 import EducationCard from "../components/education/EducationInfo";
 import { educationData } from "../data/EducationData";
 

@@ -1,4 +1,3 @@
-
 import ProjectCard from "../components/project/ProjectCard";
 import ProjectsHeader from "../components/project/ProjectHeader";
 import { projectsData } from "../data/ProjectData";

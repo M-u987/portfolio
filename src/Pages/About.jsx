@@ -1,4 +1,4 @@
-import React from "react-router-dom";
+
 import AboutImg from "../assets/About.jpg";
 import AboutImage from "../components/about/AboutImg";
 import AboutContent from "../components/about/AboutContent";

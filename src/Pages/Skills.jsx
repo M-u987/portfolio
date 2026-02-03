@@ -1,4 +1,3 @@
-import React from "react-router-dom";
 import SkillCard from "../components/skills/SkillsCard";
 import SkillsHeader from "../components/skills/SkillsHeader";
 import { skillsData } from "../data/SkillsData";

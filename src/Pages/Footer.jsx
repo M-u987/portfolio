@@ -1,4 +1,3 @@
-
 import FooterLinks from "../components/footer/FooterSocial";
 import { FooterData } from "../data/FooterData";
 

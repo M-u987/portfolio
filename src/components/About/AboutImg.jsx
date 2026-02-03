@@ -1,4 +1,3 @@
-import React from "react";
 
 /**
  * About section image component

@@ -1,4 +1,3 @@
-
 import HeroImg from "../components/hero/Muru.png";
 import SocialLinks from "../components/hero/SocialLinks";
 import Button from "../components/common/Button";

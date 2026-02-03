@@ -1,4 +1,4 @@
-import React from "react";
+
 
 export default function EducationCard({ degree, institution, year, description }) {
   return (

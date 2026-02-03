@@ -1,4 +1,4 @@
-import React from "react";
+
 
 /**
  * Displays individual skill details
