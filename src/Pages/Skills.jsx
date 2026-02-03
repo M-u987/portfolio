@@ -1,6 +1,6 @@
 import React from "react-router-dom";
-import SkillCard from "../components/Skills/SkillsCard.jsx";
-import SkillsHeader from "../components/Skills/SkillsHeader.jsx";
+import SkillCard from "../Components/Skills/SkillsCard.jsx";
+import SkillsHeader from "../Components/Skills/SkillsHeader.jsx";
 import { skillsData } from "../Data/SkillsData.jsx";
 
 /**

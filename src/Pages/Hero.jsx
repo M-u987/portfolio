@@ -1,7 +1,7 @@
 import React from "react-router-dom";
-import HeroImg from "../components/Hero/Muru.png";
-import SocialLinks from "../components/Hero/SocialLinks.jsx";
-import Button from "../components/common/Button.jsx";
+import HeroImg from "../Components/Hero/Muru.png";
+import SocialLinks from "../Components/Hero/SocialLinks.jsx";
+import Button from "../Components/Common/Button.jsx";
 import { personalData } from "../Data/PersonalData.jsx";
 
 export default function Hero() {
