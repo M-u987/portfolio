@@ -11,7 +11,7 @@ export default function Skills() {
   return (
     <section
       id="skills"
-      className="bg-gradient-to-br py-24 px-6"
+      className="bg-gradient-to-br py-24 px-6 bg-white text-black dark:bg-gray-900 dark:text-white"
     >
       <div className="max-w-6xl mx-auto">
 

@@ -6,7 +6,7 @@ export default function ContactInfo({ info }) {
         return (
           <div
             key={index}
-            className="flex items-center gap-3 text-gray-700"
+            className="flex items-center gap-3"
           >
             <Icon className="w-5 h-5" />
             <span>{item.text}</span>

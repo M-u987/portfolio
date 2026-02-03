@@ -31,7 +31,7 @@ export default function ContactForm() {
     <form onSubmit={handleSubmit} className="space-y-5">
       {["name", "email"].map((field) => (
         <div key={field}>
-          <label className="block text-sm font-medium text-gray-600 capitalize">
+          <label className="block text-sm font-medium  capitalize">
             {field}
           </label>
           <input
@@ -40,13 +40,13 @@ export default function ContactForm() {
             value={form[field]}
             onChange={handleChange}
             required
-            className="mt-1 w-full rounded-lg border border-gray-300 px-4 py-2 focus:ring-2 focus:ring-gray-800"
+            className="mt-1 w-full rounded-lg border  px-4 py-2 focus:ring-2 "
           />
         </div>
       ))}
 
       <div>
-        <label className="block text-sm font-medium text-gray-600">
+        <label className="block text-sm font-medium ">
           Message
         </label>
         <textarea

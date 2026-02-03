@@ -1,7 +1,7 @@
 export const FooterData= {
     
     heading:"Murugesan S",
-    description:"© 2024 Murugesan S. All rights reserved.",
+    description:"© 2026 Murugesan S. All rights reserved.",
     
     
     FooterLinks: {

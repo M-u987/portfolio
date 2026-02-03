@@ -5,7 +5,7 @@ import React from "react";
  */
 export default function AboutImage({ image, alt }) {
   return (
-    <div className="md:w-1/2">
+    <div className="md:w-1/2 bg-block">
       <img
         src={image}
         alt={alt}

@@ -9,13 +9,19 @@ import Contact from './Pages/contact';
 import Footer from './Pages/Footer';
 import Edugation from './Pages/Edugation';
 import HomeButton from './components/common/TopBtn';
+import { useState } from "react";
 
 
 function App() {
+  const [theme, setTheme] = useState("light");
+
+  const toggleTheme = () => {
+    setTheme(theme === "light" ? "dark" : "light");
+  };
   return (
-    <div className="App">
+    <div className= {theme === "dark" ? "dark" : ""} >
         <HomeButton/>
-        <Header />
+        <Header theme={theme} toggleTheme={toggleTheme} />
         <Hero />
         <About />
         <Edugation/>

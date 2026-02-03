@@ -9,7 +9,7 @@ export default function Projects() {
   return (
     <section
       id="project"
-      className="max-w-7xl mx-auto px-6 py-20"
+      className="max-w-7xl mx-auto px-6 py-20 bg-white text-black dark:bg-gray-900 dark:text-white"
     >
       <ProjectsHeader 
         subtitle="Here are some of the projects I've worked on:"

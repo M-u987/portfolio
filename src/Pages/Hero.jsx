@@ -5,20 +5,20 @@ import { personalData } from "../Data/PersonalData.jsx";
 
 export default function Hero() {
   return (
-    <section className="max-w-7xl mx-auto flex flex-col md:flex-row items-center px-6 py-24 gap-10">
+    <section className="max-w-7xl mx-auto bg-white text-black dark:bg-gray-900 dark:text-white flex flex-col md:flex-row items-center px-6 py-24 gap-10">
 
       {/* Text */}
       <div className="md:w-1/2">
-        <h1 className="text-5xl px-10 md:text-7xl font-hero-font text-black leading-tight">
+        <h1 className="text-5xl px-10 md:text-7xl font-hero-font  leading-tight">
           Hi, <br />
-          I'm <span className="text-blue-600">{personalData.name}</span>
+          I'm <span className="text-blue-500">{personalData.name}</span>
         </h1>
 
-        <p className="text-2xl px-10 mt-4 text-black">
-          A Passionate <span className="text-blue-600 font-semibold">{personalData.role}</span>
+        <p className="text-2xl px-10 mt-4 ">
+          A Passionate <span className=" text-blue-500 font-semibold">{personalData.role}</span>
         </p>
 
-        <p className="mt-6 px-10 text-lg text-gray-700 text-justify">
+        <p className="mt-6 px-10 text-lg  text-justify">
           {personalData.description}
         </p>
 
