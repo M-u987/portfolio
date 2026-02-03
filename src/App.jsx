@@ -1,14 +1,14 @@
 // import React from "react-router-dom";
 import './App.css';
-import Header from './components/common/header';
-import Hero from './pages/body';
-import About from './pages/about';
-import Projects from './pages/project';
-import Skills from './pages/skills';
-import Contact from './pages/contact';
-import Footer from './pages/footer';
-import Edugation from './pages/edugation';
-import HomeButton from './components/common/topbtn';
+import Header from './components/common/Header';
+import Hero from './pages/Body';
+import About from './pages/About';
+import Projects from './pages/Project';
+import Skills from './pages/Skills';
+import Contact from './pages/Contact';
+import Footer from './pages/Footer';
+import Education from './pages/Education';
+import HomeButton from './components/common/TopBtn';
 import { useState } from "react";
 
 
@@ -24,7 +24,7 @@ function App() {
         <Header theme={theme} toggleTheme={toggleTheme} />
         <Hero />
         <About />
-        <Edugation/>
+        <Education/>
         <Projects />
         <Skills />
         <Contact/>

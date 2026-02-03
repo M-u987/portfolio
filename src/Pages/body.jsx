@@ -1,8 +1,8 @@
 
-import HeroImg from "../components/hero/muru.png";
-import SocialLinks from "../components/hero/sociallinks.jsx";
-import Button from "../components/common/button.jsx";
-import { personalData } from "../data/personaldata.jsx";
+import HeroImg from "../components/hero/Muru.png";
+import SocialLinks from "../components/hero/SocialLinks";
+import Button from "../components/common/Button";
+import { personalData } from "../data/PersonalData";
 
 
 export default function Hero() {

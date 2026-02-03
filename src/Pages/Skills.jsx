@@ -1,7 +1,7 @@
 import React from "react-router-dom";
-import SkillCard from "../components/skills/skillscard.jsx";
-import SkillsHeader from "../components/skills/skillsheader.jsx";
-import { skillsData } from "../data/skillsdata.jsx";
+import SkillCard from "../components/skills/SkillsCard";
+import SkillsHeader from "../components/skills/SkillsHeader";
+import { skillsData } from "../data/SkillsData";
 
 /**
  * Skills section wrapper component

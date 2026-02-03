@@ -1,4 +1,4 @@
-import Resume from "../components/hero/murugesan.pdf"
+import Resume from "../components/hero/Murugesan.pdf"
 export const personalData = {
   name: "Murugesan ",
   role: "Full-Stack Developer",
