@@ -1,14 +1,14 @@
-import React from 'react';
+import React from "react-router-dom";
 import './App.css';
-import Header from './components/common/Header';
-import Hero from './Pages/Hero';
-import About from './Pages/About';
-import Projects from './Pages/Project';
-import Skills from './Pages/Skills';
-import Contact from './Pages/contact';
-import Footer from './Pages/Footer';
-import Edugation from './Pages/Edugation';
-import HomeButton from './components/common/TopBtn';
+import Header from './components/common/Header.jsx';
+import Hero from './Pages/Hero.jsx';
+import About from './Pages/About.jsx';
+import Projects from './Pages/Project.jsx';
+import Skills from './Pages/Skills.jsx';
+import Contact from './Pages/contact.jsx';
+import Footer from './Pages/Footer.jsx';
+import Edugation from './Pages/Edugation.jsx';
+import HomeButton from './components/common/TopBtn.jsx';
 import { useState } from "react";
 
 

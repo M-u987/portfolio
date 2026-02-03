@@ -1,6 +1,6 @@
-import React from "react";
-import FooterLinks from "../components/Footer/FooterSocial";
-import { FooterData } from "../Data/FooterData";
+import React from "react-router-dom";
+import FooterLinks from "../components/Footer/FooterSocial.jsx";
+import { FooterData } from "../Data/FooterData.jsx";
 
 export default function Footer() {
   return (

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Send } from "lucide-react";
-import { sendEmail } from "../../Services/emailServices";
+import { sendEmail } from "../../Services/emailServices.jsx";
 
 export default function ContactForm() {
   const [form, setForm] = useState({
