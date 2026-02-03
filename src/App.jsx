@@ -1,7 +1,7 @@
 // import React from "react-router-dom";
 import './App.css';
 import Header from './components/common/Header';
-import Hero from './pages/Body';
+import Hero from './pages/Hero';
 import About from './pages/About';
 import Projects from './pages/Project';
 import Skills from './pages/Skills';
