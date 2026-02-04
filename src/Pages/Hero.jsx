@@ -1,7 +1,7 @@
 import SocialLinks from "../components/Hero/SocialLinks";
 import Button from "../components/common/Button";
 import { personalData } from "../Data/PersonalData";
-import HeroImg from "../components/Hero/Muru.png";   // 👈 import image
+import HeroImg from "../components/Hero/Muru.png";   
 
 
 export default function Hero() {
