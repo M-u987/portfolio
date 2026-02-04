@@ -5,7 +5,7 @@ export const FooterData= {
     
     
     FooterLinks: {
-    linkedin: "https://www.linkedin.com/in/murugesan-s",
+    linkedin: "https://www.linkedin.com/in/murugesan-s-5b0917251",
     github: "https://github.com/M-u987",
     instagram: "https://www.instagram.com/im_muru?igsh=a3Roem51amR1YTIy",
     youtube: "https://www.youtube.com/@Ilandhaimurugeshcreation",
