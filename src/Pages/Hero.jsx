@@ -6,7 +6,7 @@ import HeroImg from "../components/Hero/Muru.png";
 
 export default function Hero() {
   return (
-    <section className="max-w-7xl mx-auto bg-white text-black dark:bg-gray-900 dark:text-white flex flex-col md:flex-row items-center px-6 py-24 gap-10">
+    <section className="max-w-7xl mx-auto bg-white text-black dark:bg-gray-900 dark:text-white flex flex-col md:flex-row items-center px-5 py-20 gap-10">
 
       <div className="md:w-1/2">
         <h1 className="text-5xl px-10 md:text-7xl font-hero-font leading-tight">
