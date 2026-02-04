@@ -1,8 +1,8 @@
 
-import ContactHeader from "../components/contact/ContectHeader";
-import ContactInfo from "../components/contact/ContactInfo";
-import ContactForm from "../components/contact/ContactForm";
-import { contactInfo } from "../data/ContactData";
+import ContactHeader from "../components/Contact/ContectHeader";
+import ContactInfo from "../components/Contact/ContactInfo";
+import ContactForm from "../components/Contact/ContactForm";
+import { contactInfo } from "../Data/ContactData";
 
 export default function Contact() {
   return (

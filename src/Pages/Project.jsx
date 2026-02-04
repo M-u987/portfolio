@@ -1,6 +1,6 @@
-import ProjectCard from "../components/project/ProjectCard";
-import ProjectsHeader from "../components/project/ProjectHeader";
-import { projectsData } from "../data/ProjectData";
+import ProjectCard from "../components/Project/ProjectCard";
+import ProjectsHeader from "../components/Project/ProjectHeader";
+import { projectsData } from "../Data/ProjectData";
 
 /**
  * Projects section wrapper component

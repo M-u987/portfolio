@@ -1,6 +1,6 @@
-import SkillCard from "../components/skills/SkillsCard";
-import SkillsHeader from "../components/skills/SkillsHeader";
-import { skillsData } from "../data/SkillsData";
+import SkillCard from "../components/Skills/SkillsCard";
+import SkillsHeader from "../components/Skills/SkillsHeader";
+import { skillsData } from "../Data/SkillsData";
 
 /**
  * Skills section wrapper component

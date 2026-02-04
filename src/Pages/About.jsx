@@ -1,8 +1,8 @@
 
 import AboutImg from "../assets/About.jpg";
-import AboutImage from "../components/about/AboutImg";
-import AboutContent from "../components/about/AboutContent";
-import { aboutData } from "../data/AboutData";
+import AboutImage from "../components/About/AboutImg";
+import AboutContent from "../components/About/AboutContent";
+import { aboutData } from "../Data/AboutData";
 
 
 /**

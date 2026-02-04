@@ -1,13 +1,13 @@
 // import React from "react-router-dom";
 import './App.css';
 import Header from './components/common/Header';
-import Hero from './pages/Hero';
-import About from './pages/About';
-import Projects from './pages/Project';
-import Skills from './pages/Skills';
-import Contact from './pages/Contact';
-import Footer from './pages/Footer';
-import Education from './pages/Education';
+import Hero from './Pages/Hero';
+import About from './Pages/About';
+import Projects from './Pages/Project';
+import Skills from './Pages/Skills';
+import Contact from './Pages/Contact';
+import Footer from './Pages/Footer';
+import Education from './Pages/Education';
 import HomeButton from './components/common/TopBtn';
 import { useState } from "react";
 

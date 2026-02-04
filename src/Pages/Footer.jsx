@@ -1,5 +1,5 @@
-import FooterLinks from "../components/footer/FooterSocial";
-import { FooterData } from "../data/FooterData";
+import FooterLinks from "../components/Footer/FooterSocial";
+import { FooterData } from "../Data/FooterData";
 
 export default function Footer() {
   return (

@@ -1,6 +1,6 @@
 
-import EducationCard from "../components/education/EducationInfo";
-import { educationData } from "../data/EducationData";
+import EducationCard from "../components/Education/EducationInfo";
+import { educationData } from "../Data/EducationData";
 
 export default function Education() {
   return (
