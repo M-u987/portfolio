@@ -5,7 +5,7 @@ import Hero from './Pages/Hero';
 import About from './Pages/About';
 import Projects from './Pages/Project';
 import Skills from './Pages/Skills';
-import Contact from './Pages/Contact';
+import Contact from './Pages/contact';
 import Footer from './Pages/Footer';
 import Education from './Pages/Education';
 import HomeButton from './components/common/TopBtn';
