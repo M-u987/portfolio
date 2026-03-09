@@ -7,7 +7,7 @@ export const contactInfo = [
   },
   {
     icon: Phone,
-    text: "+91 98765 43210",
+    text: "+91 63691 29227",
   },
   {
     icon: MapPin,
