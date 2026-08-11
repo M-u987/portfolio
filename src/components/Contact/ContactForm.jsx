@@ -23,7 +23,7 @@ export default function ContactForm() {
       setForm({ name: "", email: "", message: "" });
     } catch (error) {
       console.error(error);
-      alert("Failed to send message ❌");
+      alert("Failed to send message ");
     }
   };
 

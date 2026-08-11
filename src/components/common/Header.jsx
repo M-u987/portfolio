@@ -40,7 +40,9 @@ export default function Header({theme,toggleTheme}) {
       {toggleMenu && (
         <nav className="md:hidden bg-secondary px-6 pb-4">
           <ul className="flex flex-col gap-4 text-white font-medium">
-            <li><a href="/" onClick={() => setToggleMenu(false)}>Home</a></li>
+            <li><a href="/" 
+              onClick={() => setToggleMenu(false)}
+            >Home</a></li>
             <li><a href="#about" onClick={() => setToggleMenu(false)}>About</a></li>
             <li><a href="#education" onClick={() => setToggleMenu(false)}>Eduction</a></li>
             <li><a href="#project" onClick={() => setToggleMenu(false)}>Projects</a></li>
