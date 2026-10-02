@@ -8,7 +8,7 @@ export const personalData = {
   socialLinks: {
     linkedin: "https://www.linkedin.com/in/murugesan-s-5b0917251",
     github: "https://github.com/M-u987",
-    instagram: "https://www.instagram.com/im_muru?igsh=a3Roem51amR1YTIy",
+    instagram: "https://www.instagram.com/im_muruu?stkn=a3Roem51amR1YTIy",
     youtube: "https://www.youtube.com/@Ilandhaimurugeshcreation",
   },
 };
